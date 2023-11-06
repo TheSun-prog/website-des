@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+    <link rel="stylesheet" href="static/css/bundle.css">
+    <style>
+        body {
+            height: 100vh;
+            background: right url("static/images/main.png") no-repeat;
+            background-size: contain;
+            display: flex;
+            align-items: center;
+            padding-left: 150px;
+        }
+        @media (max-width: 1000px) {
+            body {
+                padding: 0;
+                justify-content: center;
+                background-image: none;
+                text-align: center;
+            }
+        }
+        .title {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 30px;
+        }
+        @media (max-width: 1000px) {
+            .title {
+                align-items: center;
+            }
+        }
+        p {
+            padding-bottom: 20px;
+        }
+        .button {
+            width: 250px
+        }
+    </style>
+</head>
+<body>
+    <div class="title">
+        <h2>Спасибо</h2>
+        <p>Наши менеджера свяжутся, <br>с Вами в ближайшее время</p>
+        <a href='/' class="button">На главное меню</a>
+    </div>
+</body>
+</html>
